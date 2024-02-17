@@ -1,6 +1,3 @@
-Let's adjust the content to ensure it fits within your desired structure and markdown limitations. I'll streamline the additional instructions to integrate seamlessly with your existing README content.
-
-```markdown
 # Barebones Whisper (OpenAI) Transcriptions
 ## Rapid Development Project (RAP)
 
