@@ -1,25 +1,58 @@
-# Barebones Whisper (openAI) Transcriptions
+Let's adjust the content to ensure it fits within your desired structure and markdown limitations. I'll streamline the additional instructions to integrate seamlessly with your existing README content.
+
+```markdown
+# Barebones Whisper (OpenAI) Transcriptions
 ## Rapid Development Project (RAP)
 
 ## Overview
-Was just wanting to test a quick, local Whisper audio transcriptions package.
-Feel free to modify it and use it however you want.
+A test project for quick, local audio transcriptions using OpenAI's Whisper. Modify and use it to your preference.
 
-There are two files, main.py and main-v2.py
+Includes two files: `main.py` (a minimal example) and `main-v2.py` (enhanced with sentence splitting).
 
-main.py is the barest file I could imagine.
+## Disclaimer
+No APIs or .env variables involved, but as I didn't create the underlying packages, I cannot guarantee data privacy.
 
-main-v2.py adds a few extra packages (punkt and... i'll come back to this) to
-split sentences up into lines.
-
-## Use at your own risk!
-While there are no APIs or .env variables to worry about, I did not create
-these packages so I'm unaware of they're sending off your data elsewhere.
-
-The two files I've included are just test mp3 files I grabbed online to see if
-it works. It did :D
+Included are test mp3 files to demonstrate functionality.
 
 ## Future Considerations
-I might come back and have it identify different narrators. That would make it
-way more useful. However, if you're just backing up some audio files it'll do
-the trick!
+Potential future update: narrator differentiation for enhanced utility.
+
+---
+
+## Getting Started
+
+### Prerequisites
+- Python 3.6+
+- pip
+
+### Setup and Installation
+
+1. **Clone the repository** to your local machine.
+
+2. **Set up a virtual environment** (optional, but recommended):
+   ```bash
+   python3 -m venv env
+   source env/bin/activate  # On macOS/Linux
+   .\env\Scripts\activate   # On Windows
+   ```
+
+3. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### Running the Project
+- **For basic transcription**:
+  ```bash
+  python main.py
+  ```
+- **For sentence-split transcription**:
+  ```bash
+  python main-v2.py
+  ```
+
+### Deactivating the Virtual Environment
+When done, deactivate the virtual environment:
+```bash
+deactivate
+```
