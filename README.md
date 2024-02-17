@@ -1,5 +1,5 @@
 # Barebones Whisper (OpenAI) Transcriptions
-## Rapid Development Project (RAP)
+## Rapid Project Development (RPD)
 
 ## Overview
 A test project for quick, local audio transcriptions using OpenAI's Whisper. Modify and use it to your preference.
